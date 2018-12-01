@@ -3,7 +3,8 @@ import ReactDOM from "react-dom";
 
 import "./styles.css";
 
-function App() {
+function App(props) {
+  console.log(props);
   return (
     <div className="App">
       <h1>Hello CodeSandbox</h1>
